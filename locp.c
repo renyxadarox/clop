@@ -10,7 +10,7 @@
 	#include <sys/utsname.h>
 #endif
 
-#define VERSION "1.03"
+#define VERSION "1.04"
 
 #ifdef _WIN64
     const char* OS = "Windows 64-bit";
@@ -195,7 +195,7 @@ int main(int argc, char** argv)
 	if(uname(&name)) exit(EXIT_FAILURE);
 	sprintf(OS, "%s %s", name.sysname, name.release);
 #endif // __linux__
-    fprintf(stderr, "CLOP (Consecutive List Of Primes) %s (%s)\nCopyright 2018, Alexander Belogourov aka x3mEn\n\n", VERSION, OS);
+    fprintf(stderr, "LOCP (List Of Consecutive Primes) %s (%s)\nCopyright 2018, Alexander Belogourov aka x3mEn\n\n", VERSION, OS);
     if (argc < 3) {
         print_usage();
         exit(EXIT_FAILURE);
