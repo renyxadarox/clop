@@ -1,2 +1,2 @@
-# clop
-Consecutive List Of Primes
+# locp
+List Of Consecutive Primes
