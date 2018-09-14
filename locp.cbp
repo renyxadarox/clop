@@ -2,12 +2,12 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="clop" />
+		<Option title="locp" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/clop" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/locp" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -17,7 +17,7 @@
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/clop_$(version)_windows_x86_64" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/locp_$(version)_windows_x86_64" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -33,7 +33,7 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="clop.c">
+		<Unit filename="locp.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions>
